@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Justification</column_label>
+        <column_label>Justification for the rating</column_label>
         <comments/>
         <create_roles/>
         <default_value>350</default_value>
@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>500</max_length>
         <name>x_mbrad_anonymou_0_survey_feedback</name>
         <next_element/>
         <primary>false</primary>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>PATCHIP</sys_created_by>
         <sys_created_on>2025-08-12 09:13:57</sys_created_on>
-        <sys_name>Justification</sys_name>
+        <sys_name>Justification for the rating</sys_name>
         <sys_package display_value="Anonymous Employee Feedback Survey" source="x_mbrad_anonymou_0">7d8ae6b197172610913dfdb0f053af65</sys_package>
         <sys_policy/>
         <sys_scope display_value="Anonymous Employee Feedback Survey">7d8ae6b197172610913dfdb0f053af65</sys_scope>
         <sys_update_name>sys_dictionary_x_mbrad_anonymou_0_survey_feedback_justification</sys_update_name>
-        <sys_updated_by>PATCHIP</sys_updated_by>
-        <sys_updated_on>2025-08-12 09:13:57</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-13 13:02:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
