@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="91fae2f197172610913dfdb0f053afbf" label="survey_feedback" max_length="40" name="x_mbrad_anonymou_0_survey_feedback" type="collection">
+        <element label="Review For" max_length="32" name="review_for" reference="sys_user" type="reference"/>
+        <element default="350" label="Justification" max_length="40" name="justification" type="string"/>
+        <element default="1" label="Rating" max_length="40" name="rating" type="string"/>
+        <index name="index">
+            <element name="review_for"/>
+        </index>
+    </element>
+</database>
